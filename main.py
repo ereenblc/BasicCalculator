@@ -18,7 +18,7 @@ BD = 9  # Border width
 def get_number(digit):
     global user_inputs
     user_inputs = user_inputs + str(digit)
-    result_label.config(text=user_inputs)
+    result_label.config(text=user_inputs, fg="black")
 
 
 def clear_all():
